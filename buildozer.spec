@@ -1,13 +1,14 @@
 [app]
-title = Undead Slayer Kael
+title = UndeadSlayer
 package.name = undeadslayer
-package.domain = org.kael
+package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 requirements = python3,pygame
 orientation = landscape
 fullscreen = 1
-android.archs = arm64-v8a, armeabi-v7a
-android.allow_backup = True
-
+android.archs = arm64-v8a
+android.api = 31
+android.minapi = 21
+android.sdk = 31
